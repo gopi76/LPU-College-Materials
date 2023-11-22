@@ -1,0 +1,23 @@
+
+
+CA3 
+
+set 1
+
+fast algorithm
+
+conversion from rgb to hsv
+
+fundamental matrix , epipolar, epipolar geometry.
+
+
+
+set 2
+
+
+conversion from rgb to hsi
+
+sift surf 
+
+homgraphy , pinhole cameras 2D to 3D.
+
