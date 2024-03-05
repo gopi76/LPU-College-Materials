@@ -1,6 +1,7 @@
 # LPU-College-Materials 📚✨
 
 Included all the subjects which i studied(BTECH CSE Lateral Entry - P132L ). I had attached for 1st year materials which was taken from my firends. I hope it may helpful to learn concepts for your studies. 
+- **Star this repo if you find this materials are helpful**
 
 ## Semester 1 🌈
 - **MEC107 :** BASIC ENGINEERING MECHANICS 
