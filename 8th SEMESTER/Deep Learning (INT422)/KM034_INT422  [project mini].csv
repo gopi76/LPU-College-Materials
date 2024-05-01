@@ -1,0 +1,73 @@
+SerialNo,RegisterationNumber,Name,RollNumber,Project
+1,12001742,Ashray Khosin,RKM034A01,1.Image Classification of Dogs vs Cats Using Convolutional Neural Networks (CNNs)
+2,12003718,Ananya Kumar,RKM034A04,2. Facial Expression Recognition using Deep Learning
+3,12004409,Muhammed Farhan C V,RKM034A05,3. Sentiment Analysis on Twitter Data using Recurrent Neural Networks (RNNs)
+4,12006223,Eeshan Aggarwal,RKM034A06,4. Music Genre Classification using Deep Learning on Audio Data
+5,12006658,Akshat Sagar,RKM034A07,5. Disease Detection in Plant Leaves using Deep Learning
+6,12007952,D Hemanth Venkata Sai Kumar,RKM034A08,6. Handwritten Digit Recognition using Convolutional Neural Networks
+7,12008093,Nitin Puli,RKM034A09,7. Object Detection in Images using Deep Learning
+8,12008341,Astha Singh,RKM034A10,8. Speech Recognition using Deep Learning for Voice Commands
+9,12009492,Abir Saha,RKM034A11,9. Fraud Detection in Financial Transactions using Deep Learning
+10,12010769,Prince Yadav,RKM034A12,10. Human Activity Recognition using Deep Learning on Sensor Data
+11,12012928,Shreyas Ninawe,RKM034A14,11. Recommendation Systems using Deep Learning on Movie Rating Data
+12,12013205,Mahendra Yadav,RKM034A15,12. Text Generation using Recurrent Neural Networks (RNNs)
+13,12013265,Raghav Sharma,RKM034A17,13. Brain Tumor Detection in MRI Images using Deep Learning
+14,12013416,Md Moniruzzaman Piyash,RKM034A18,14. Stock Price Prediction using Deep Learning on Financial Time Series Data
+15,12014711,Kanchan Katal,RKM034A19,15. Traffic Sign Recognition using Convolutional Neural Networks
+16,12015015,Tushar Sharma,RKM034A20,16. Anomaly Detection in Network Traffic using Deep Learning
+17,12016253,Devana Manohar,RKM034A21,17. Gender Classification in Images using Convolutional Neural Networks
+18,12016454,Ryan Choudhury,RKM034A22,18. Natural Language Translation using Sequence-to-Sequence Models
+19,12016600,Mandala Likhith Sai Krishna  Reddy,RKM034A23,19. Melanoma Skin Cancer Detection using Deep Learning on Dermoscopic Images
+20,12016892,Punit Mishra,RKM034A24,20. Hand Gesture Recognition for Sign Language using Deep Learning
+21,12017316,Sarbjot Singh,RKM034A25,21. Emotion Detection in Speech using Deep Learning
+22,12017756,Raushan Pandey,RKM034A26,22. Video Classification using Deep Learning for Action Recognition
+23,12017891,Shakir Bashir,RKM034A27,23. Sleep Stage Classification using Deep Learning on EEG Data
+24,12018285,Vikrmaditya Mishra,RKM034A28,24. Customer Churn Prediction using Deep Learning on Telecom Data
+25,12020036,Pathakota Rahul Reddy,RKM034A30,25. Intrusion Detection in Cybersecurity using Deep Learning
+26,12016635,Raj Roshan Rai,RKM034A71,26. Style Transfer in Images using Deep Neural Networks
+27,12011796,Saurabh Kumar,RKM034A73,27. Pedestrian Detection in Autonomous Vehicles using Deep Learning
+28,11811155,Lakshay Bhateja,RKM034A74,28. Diabetic Retinopathy Detection using Deep Learning on Fundus Images
+29,12000174,Md Kamruzzaman,RKM034B34,29. Document Classification using Deep Learning on Text Data
+30,12000371,Abdul Saddam Gambo,RKM034B35,30. Lane Detection in Autonomous Driving using Deep Learning
+31,12000703,Akram Ali,RKM034B36,31. Urban Sound Classification using Convolutional Neural Networks
+32,12001635,Kuljeet Singh,RKM034B37,32. Social Network Analysis using Deep Learning on Graph Data
+33,12003841,Adarsh Agrawal,RKM034B38,33. Protein Structure Prediction using Deep Learning on Biological Data
+34,12004674,Pal Ajit Rameshkumar,RKM034B39,34. Authorship Identification using Deep Learning on Text Data
+35,12005831,Anushka Dayal,RKM034B40,35. Automatic Image Captioning using Convolutional Neural Networks and Recurrent Neural Networks
+36,12007198,Raunak Kumar,RKM034B42,36. Cyberbullying Detection in Social Media using Deep Learning
+37,12007335,Gaurav Kumar Singh,RKM034B43,37. Speech Emotion Recognition using Deep Learning
+38,12008000,Kamran Raja,RKM034B44,38. Crop Disease Detection using Deep Learning on Agricultural Images
+39,12008358,Trishita Goyal,RKM034B45,39. Human Pose Estimation using Convolutional Pose Machines
+40,12008836,Hassan C M,RKM034B46,40. Personality Prediction from Text using Deep Learning
+41,12010196,Km Mahima Shukla,RKM034B50,41. Satellite Image Analysis for Disaster Response using Deep Learning
+42,12011643,Sagar,RKM034B53,42. Named Entity Recognition in Text using Deep Learning
+43,12012504,Matta Venkata Naga Sai Karthik,RKM034B54,43. Music Recommendation System using Deep Learning on Listening History
+44,12012577,Tenzin Phuntsok,RKM034B55,44. Object Tracking in Videos using Deep Learning
+45,12014013,Mohammed Muzammil Shaik,RKM034B57,45. Fake News Detection using Deep Learning on Text Data
+46,12016448,Pritul Kumar Sinha,RKM034B58,46. Environmental Sound Classification using Deep Learning
+47,12016638,Shivam Kumar,RKM034B59,47. Fall Detection for Elderly People using Deep Learning on Sensor Data
+48,12018460,Uday Tripathi,RKM034B61,48. Skin Disease Classification using Deep Learning on Dermoscopic Images
+49,12019338,Sarthak Maheshwari,RKM034B62,49. Text Summarization using Deep Learning
+50,12020299,Kammila Sai Kumar,RKM034B64,50. Visual Question Answering using Deep Learning
+51,12115851,Guntamukkala Gopi Krishna,RKM034B66,51. Fake Face Detection using Deep Learning on Facial Images
+52,12116411,Rishabh Kumar,RKM034B67,52. Autonomous Drone Navigation using Deep Learning
+53,12006142,Umang Kumar,RKM034B68,53. Depression Detection using Deep Learning on Social Media Data
+54,12019390,Rohit  Kumar,RKM034B69,54. Disease Diagnosis from Medical Images using Deep Learning
+55,12105945,Udayan Debnath,RKM034B72,55. Cyber Attack Detection in IoT Networks using Deep Learning
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,

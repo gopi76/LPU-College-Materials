@@ -1,0 +1,29 @@
+CA1 QUESTIONS
+
+1. DEFINE MLP (MULTI LAYER PERCEPTRON) AND APPLICATIONS FOR CLASSIFICATION TASKS USING KERAS.
+   DISCUSS ACTIVATION FUNCTIONS AND HIDDEN LAYER, OUTPUT LAYER. 
+
+2.  OVERFIT AND UNDERFIT IN ML MODELS. AND USING KERAS.
+    WRITE STRATEGIES AND TECHNIQUES TO SOLVE THESE PROBLEMS .
+
+3. DEFINE TENSORFLOW RANKS AND TENSOR. EXPLAIN HOW RANKS ARE USEFUL IN DEEP LEARNING?
+
+
+
+ca2  (15 mcqs - 40 minutes)
+
+1. autoencoders,
+2. types of encoders
+3. bottleneck
+4. variational encoder
+5. RNN
+6. encoder
+7. decoder
+8. autoencoder architecture
+9. objective of autoencoder
+10. 
+
+
+ca3 mini project experience
+1. code explanation
+2. research paper
