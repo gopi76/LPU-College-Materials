@@ -1,51 +1,53 @@
 import java.awt.*;
 import javax.swing.*;
 
-class setBoundsDemo {
-	public static void main(String[] rk) {
- 
+public class setBoundsDemo {
+    public static void main(String[] args) {
+        JFrame jf = new JFrame("SetBoundsDemo");
+        jf.setSize(500, 500);
+        jf.setResizable(false);
+        jf.setLocationRelativeTo(null);
+        jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        JPanel p = new JPanel();
+        p.setLayout(new GridLayout(0, 2, 10, 10)); // GridLayout with 2 columns and spacing
+
         JTextField txtview = new JTextField("Feb 8, 2024");
-        txtview.setBounds(50, 50, 60, 20);
+        JLabel gender = new JLabel("Gender : ");
+        JRadioButton rb1 = new JRadioButton("Male");
+        JRadioButton rb2 = new JRadioButton("Female");
 
-	    JLabel gender = new JLabel("Gender : ");
+        JLabel sports = new JLabel("Sports : ");
+        JCheckBox cb1 = new JCheckBox("cricket", true);
+        JCheckBox cb2 = new JCheckBox("shuttle");
+        JCheckBox cb3 = new JCheckBox("volleyball");
+        JCheckBox cb4 = new JCheckBox("basket ball");
 
-	    JRadioButton rb1 = new JRadioButton("Male");
-	    JRadioButton rb2 = new JRadioButton("Female");
+        ButtonGroup bg_radio = new ButtonGroup();
+        bg_radio.add(rb1);
+        bg_radio.add(rb2);
 
-	    JLabel sports = new JLabel("Sports : ");
+        // Add components to the panel
+        p.add(txtview); // This will span across two columns
+        p.add(new JLabel()); // Empty label for alignment
 
-	    JCheckBox cb1 = new JCheckBox("cricket");
-	    JCheckBox cb2 = new JCheckBox("shuttle");
-	    JCheckBox cb3 = new JCheckBox("volleyball");
-	    JCheckBox cb4 = new JCheckBox("basket ball");
+        p.add(gender);
+        p.add(rb1);
+        p.add(new JLabel()); // Empty label for alignment
+        p.add(rb2);
 
+        p.add(sports);
+        p.add(cb1);
+        p.add(cb2);
+        p.add(cb3);
+        p.add(cb4);
 
-	    ButtonGroup bg_radio = new ButtonGroup();
-	    bg_radio.add(rb1); 
-	    bg_radio.add(rb2); 
+        // Set background color of the panel
+        p.setBackground(Color.BLUE);
 
-	    ButtonGroup bg_checkbox = new ButtonGroup();
-	    bg_checkbox.add(cb1);  bg_checkbox.add(cb2); bg_checkbox.add(cb3); bg_checkbox.add(cb4);
-
-	    JPanel p = new JPanel();
-	    p.add(txtview, true);
-        p.add(gender); 
-        p.add(rb1);  p.add(rb2);
-	    p.add(sports);  //p.add(bg_checkbox);
-
-            
-
-        JFrame jf = new JFrame("setBoundsDemo");
+        // Add panel to the frame
         jf.add(p);
-		jf.setSize(500, 500);
-		jf.setResizable(false);
-	    jf.setLocationRelativeTo(null);
-	    jf.getContentPane().setBackground(Color.BLUE);
-	    jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-	    //jf.setLayout(null);
-
-
-	    jf.setVisible(true);
-	}
+        jf.setVisible(true);
+    }
 }

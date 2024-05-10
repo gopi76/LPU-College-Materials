@@ -1,7 +1,3 @@
-// javac BuilderDemo.java
-// java BuilderDemo
-
-
 
 class BuilderDemo
 {
@@ -20,9 +16,10 @@ class BuilderDemo
 
 class Registration
 {
-	String name, email;    //Compulsory
+	String name, email;    
 	int age, mobile;
-	//removed private becuase giving error
+	
+
 
 	private Registration(Builder b)
 	{
@@ -32,11 +29,11 @@ class Registration
 		this.mobile = b.mobile;
 	}
 
-	//Provide getter methods for all the attributes here...
+	
 
    static public class Builder{
 
-		private String name, email;    //Compulsory
+		private String name, email;    
 		private int age, mobile;
 		
 		public Builder(String name, String mail)

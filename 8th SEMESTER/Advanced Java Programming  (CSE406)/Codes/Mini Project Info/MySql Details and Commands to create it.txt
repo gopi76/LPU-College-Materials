@@ -1,0 +1,108 @@
+MySql details how to add in your systems.
+
+Do all this in command lines>> mysql 8.0 command line client
+
+create a database signup_page_db;
+
+use signup_page_db;
+
+
+#create a table for admin
+
+CREATE TABLE login (id INT AUTO_INCREMENT PRIMARY KEY,username VARCHAR(50) NOT NULL UNIQUE,password VARCHAR(100) NOT NULL);
+
+
+INSERT INTO login (username, password) VALUES ('gopi76', 'gopi76');
+INSERT INTO login (username, password) VALUES ('admin', 'admin');
+
+
+#create a table for students
+
+CREATE TABLE users (
+    id INT NOT NULL AUTO_INCREMENT,
+    username VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    first_name VARCHAR(255) NOT NULL,
+    last_name VARCHAR(255) NOT NULL,
+    gender ENUM('Male','Female','Other'),
+    email VARCHAR(255),
+    phone VARCHAR(20),
+    registration_number VARCHAR(50),
+    institute_10th VARCHAR(255),
+    start_year_10th INT,
+    end_year_10th INT,
+    cgpa_10th DECIMAL(3,2),
+    backlogs_10th INT,
+    institute_12th VARCHAR(255),
+    start_year_12th INT,
+    end_year_12th INT,
+    cgpa_12th DECIMAL(3,2),
+    backlogs_12th INT,
+    institute_btech VARCHAR(255),
+    start_year_btech INT,
+    end_year_btech INT,
+    cgpa_btech DECIMAL(3,2),
+    backlogs_btech INT,
+    dob_day INT,
+    dob_month INT,
+    dob_year INT,
+    image_data MEDIUMBLOB,
+    pdf_data MEDIUMBLOB,
+    specialization_10th VARCHAR(50),
+    specialization_12th VARCHAR(50),
+    specialization_btech VARCHAR(50),
+    PRIMARY KEY (id)
+);
+
+
+
+DROP TABLE IF EXISTS users;
+
+CREATE TABLE users (
+    id INT NOT NULL AUTO_INCREMENT,
+    username VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    first_name VARCHAR(255) NOT NULL,
+    last_name VARCHAR(255) NOT NULL,
+    gender ENUM('Male', 'Female', 'Other'),
+    email VARCHAR(255),
+    phone VARCHAR(20),
+    registration_number VARCHAR(50),
+    institute_10th VARCHAR(255),
+    start_year_10th INT,
+    end_year_10th INT,
+    cgpa_10th DECIMAL(3,2),
+    backlogs_10th INT,
+    institute_12th VARCHAR(255),
+    start_year_12th INT,
+    end_year_12th INT,
+    cgpa_12th DECIMAL(3,2),
+    backlogs_12th INT,
+    institute_btech VARCHAR(255),
+    start_year_btech INT,
+    end_year_btech INT,
+    cgpa_btech DECIMAL(3,2),
+    backlogs_btech INT,
+    dob_day INT,
+    dob_month INT,
+    dob_year INT,
+    image_data MEDIUMBLOB,
+    pdf_data MEDIUMBLOB,
+    specialization_10th VARCHAR(50),
+    specialization_12th VARCHAR(50),
+    specialization_btech VARCHAR(50),
+    PRIMARY KEY (id)
+);
+
+#creating a table with images. (registration number should be unique. it does not contain duplicates.)
+
+CREATE TABLE myimages (
+    ID INT NOT NULL AUTO_INCREMENT,
+    Image LONGBLOB,
+    registration_number VARCHAR(50),
+    PRIMARY KEY (ID)
+);
+
+SET GLOBAL max_allowed_packet = 67108864;
+
+#SET GLOBAL max_allowed_packet = 67108864; -- 64M in bytes  (if you find any errors related to max_allowed_packet). i have used the old version.

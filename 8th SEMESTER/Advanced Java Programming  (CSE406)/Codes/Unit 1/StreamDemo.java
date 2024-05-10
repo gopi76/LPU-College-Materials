@@ -2,6 +2,7 @@
 
 import java.util.*;
 import java.util.stream.*;
+
 class StreamDemo
 {
     static public void main(String ...rk)

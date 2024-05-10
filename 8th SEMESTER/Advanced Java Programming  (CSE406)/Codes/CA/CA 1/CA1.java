@@ -69,7 +69,7 @@ class CA1 {
         f.add(panel);
 
 
-        class MyListener implements ActionListener {
+        /*class MyListener implements ActionListener {
         	public void actionPerformed(ActionListener ae) {
         		if(ae.getSource() == search) {
         			if (source.getText()==null || destination.getText()==null || trainTypes.getSelectedItem() == null) {
@@ -81,7 +81,7 @@ class CA1 {
         }
 
         MyListener ls = new MyListener();
-        search.addActionListener(ls);
+        search.addActionListener(ls);*/
 
         
 
